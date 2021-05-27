@@ -1,0 +1,194 @@
+{
+    "name": "asdf Color Scheme",
+    "author": "Me",
+    "variables":
+    {
+        "blue": "#268bd2",
+        "blue2": "#586e75",
+        "blue3": "#2aa198",
+        "grey": "#93a1a1",
+        "grey2": "#839496",
+        "grey3": "#444444",
+        "orange": "#f9ae58",
+        "red": "#dc322f",
+        "white": "#e4e8ea",
+        "yellow": "#859900"
+    },
+    "globals":
+    {
+        "foreground": "var(grey3)",
+        "background": "var(white)",
+        "caret": "var(orange)",
+        // "block_caret": "color(var(blue3) alpha(0.25))",
+        "line_highlight": "color(var(blue3) alpha(0.13))",
+        "selection": "color(var(blue3) alpha(0.25))"
+    },
+    "rules":
+    [
+        {
+            "name": "Comment",
+            "scope": "entity.name",
+            "foreground": "var(grey)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Function name",
+            "scope": "entity.name.function",
+            "foreground": "var(blue2)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Class name",
+            "scope": "entity.name.class",
+            "foreground": "var(blue2)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Inherited class",
+            "scope": "entity.other.inherited-class",
+            "foreground": "var(grey)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Variable",
+            "scope": "variable",
+            "foreground": "var(grey3)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Function argument",
+            "scope": "variable.parameter",
+            "foreground": "var(grey3)",
+            "font_style": "bold italic"
+        },
+        {
+            "name": "Function call",
+            "scope": "variable.function",
+            "foreground": "var(blue2)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Constant",
+            "scope": "constant",
+            "foreground": "var(blue2)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Number",
+            "scope": "constant.numeric",
+            "foreground": "var(red)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Built-in constant",
+            "scope": "constant.language",
+            "foreground": "var(blue)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Storage type",
+            "scope": "storage.type",
+            "foreground": "var(blue3)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Storage modifier",
+            "scope": "storage.modifier",
+            "foreground": "var(blue3)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Language Built-in",
+            "scope": "support",
+            "foreground": "var(blue3)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Keyword",
+            "scope": "keyword.control",
+            "foreground": "var(blue3)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Operator",
+            "scope": "keyword.operator",
+            "foreground": "var(grey2)",
+            "font_style": "bold"
+        },
+        {
+            "name": "String",
+            "scope": "string",
+            "foreground": "var(yellow)",
+            "font_style": ""
+        },
+        {
+            "name": "Comment",
+            "scope": "comment",
+            "foreground": "var(grey)",
+            "font_style": "italic"
+        },
+        {
+            "name": "Invalid",
+            "scope": "invalid",
+            "background": "color(var(red) alpha(0.69))"
+        },
+        {
+            "name": "Support Type",
+            "scope": "support.type",
+            "foreground": "var(blue)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Comment",
+            "scope": "support.function",
+            "foreground": "var(blue)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Brackets, Braces, Parenthesys",
+            "scope": "punctuation.section",
+            "foreground": "var(blue2)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Angled Brackets",
+            "scope": "punctuation.section.generic",
+            "foreground": "var(blue)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Comma",
+            "scope": "punctuation.separator",
+            "foreground": "var(blue2)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Comma",
+            "scope": "punctuation.terminator",
+            "foreground": "var(blue2)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Accessor operator",
+            "scope": "punctuation.accessor",
+            "foreground": "var(grey2)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Print",
+            "scope": "keyword.other",
+            "foreground": "var(blue3)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Function arguments",
+            "scope": "meta.function-call.arguments",
+            "foreground": "var(blue2)"
+        },
+        {
+            "name": "Default parameters",
+            "scope": "meta.function.parameters.default-value",
+            "foreground": "var(blue2)"
+        }
+    ]
+}
